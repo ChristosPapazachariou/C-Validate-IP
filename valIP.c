@@ -10,7 +10,7 @@ int ValidateIp(char * input)
 	const int maxNumOfDigits = 15;
 	const char dot = '.';
 	char * segment[4] = {NULL, NULL, NULL, NULL};
-	char inBuffer[maxNumOfDigits];
+	char inBuffer[maxNumOfDigits+1];
 	int dotCnt = 0;
 	int segLen = 0;
 	int nSeg = 0;
